@@ -152,6 +152,11 @@ firebase.auth().onAuthStateChanged(user => {
   }
 });
 
+window.addEventListener("beforeunload", (ev) => {
+  
+  return window.indexedDB.deleteDatabase("firebaseLocalStorageDb");
+})
+
 function newFunction() {
   console.log("idMatch" + idMatch);
 }
