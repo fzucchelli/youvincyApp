@@ -84,7 +84,7 @@ export default class GameRow extends React.Component {
             <img
               alt="image"
               className="rounded-circle"
-              src={this.props.match.ownerImg}
+              src={"https://fzucchelli.github.io/FootballApp/"+this.props.match.ownerImg}
             />
             <div className="text-center">
               <b>

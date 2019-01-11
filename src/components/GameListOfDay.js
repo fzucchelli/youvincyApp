@@ -6,6 +6,7 @@ import { isPlayerIn } from "./../utils/PlayerHelper";
 import { connect } from "react-redux";
 import { addPlayer } from "../actions/matchsAction";
 
+
 class GamesListOfDay extends React.Component {
   constructor(props) {
     super(props);
@@ -13,7 +14,7 @@ class GamesListOfDay extends React.Component {
     this.toggleOpenModal = this.toggleOpenModal.bind(this);
     this.addPlayerToTeam = this.addPlayerToTeam.bind(this);
     this.state = {
-      showLaoder: true,
+      showLaoder: false,
       modal: { openState: false, selectedMatch: {}, loggedPlayerInMatch: false }
     };
   }
@@ -40,31 +41,23 @@ class GamesListOfDay extends React.Component {
 
   addPlayerToTeam(e, teamAorB, matchToAdd) {
     e.preventDefault();
-    console.log("teamAorB " + teamAorB + " matchToAdd.id " + matchToAdd.id);
     this.props.addPlayer(teamAorB, matchToAdd.id);
     this.toggleOpenModal();
 
-    console.log("matchToAdd " + JSON.stringify(matchToAdd));
-    console.log(
-      "this.props.findMatch(matchToAdd.id) " +
-        JSON.stringify(this.props.findMatch(matchToAdd.id))
-    );
     //  this.showGameDetailModal(this.props.findMatch(matchToAdd.id), true);
   }
-  componentDidMount() {
-    console.log("hello");
-    setTimeout(() => {
-      console.log(this);
-      this.setState({
-        showLaoder: false
-      });
-    }, 3000);
+
+  
+  componentWillMount() {
+   
   }
+  componentDidMount() {}
 
   render() {
     console.log(this.props);
     return (
       <React.Fragment>
+        
         <div className="ibox-title">
           <h5 />
 

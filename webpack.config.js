@@ -4,7 +4,7 @@ module.exports = {
   entry: "./src/app.js",
   output: {
     path: path.join(__dirname, "public"),
-    filename: "bundle.js"
+    filename: "bundle.js",
   },
   mode: "development",
   module: {
@@ -17,6 +17,13 @@ module.exports = {
       {
         test: /\.s?css$/,
         use: ["style-loader", "css-loader", "sass-loader"]
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        loader: 'file-loader',
+        options: {
+          name: '/img/[name].[ext]',
+        },
       }
     ]
   },

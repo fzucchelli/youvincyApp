@@ -11,7 +11,7 @@ class PlayerTeam extends React.Component {
               <img
                 alt="image"
                 className="rounded-circle"
-                src={this.props.player.playerImg}
+                src={"https://fzucchelli.github.io/FootballApp/"+this.props.player.playerImg}
               />
             </div>
             <div className="col-md-8">

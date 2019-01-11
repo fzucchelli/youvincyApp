@@ -78,7 +78,7 @@ export default class TeamsModal extends React.Component {
             </div>
             <div
               className="modal-body"
-              style={{ height: "550px", overflowX: "hidden" }}
+              style={{ height: "60%", overflowX: "hidden" }}
             >
               <div className="row">
                 <div className="col-lg-8">
@@ -104,7 +104,7 @@ export default class TeamsModal extends React.Component {
                       <img
                         alt="image"
                         className="img-circle"
-                        src="img/teams/team-1.png"
+                        src={"https://fzucchelli.github.io/FootballApp"+"/img/teams/team-1.png"}
                       />
                     </div>
                     <br />
@@ -158,7 +158,7 @@ export default class TeamsModal extends React.Component {
                       <img
                         alt="image"
                         className="img-circle"
-                        src="img/teams/team-2.png"
+                        src={"https://fzucchelli.github.io/FootballApp"+"/img/teams/team-2.png"}
                       />
                     </div>
                     <br />

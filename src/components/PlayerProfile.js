@@ -9,7 +9,6 @@ class PlayerProfile extends React.Component {
 
   componentDidMount() {
     console.log("player logged in :" + JSON.stringify(this.props.player));
-    console.log('player img',this.props.player)
   }
 
   render() {
@@ -22,7 +21,7 @@ class PlayerProfile extends React.Component {
             <img
               alt="image"
               className="img-circle"
-              src={this.props.player.imgSrc}
+              src={"https://fzucchelli.github.io/FootballApp/"+this.props.player.imgSrc}
             />
           </div>
           <br />

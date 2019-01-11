@@ -122,7 +122,7 @@ class CreateAgame extends React.Component {
                           <img
                             alt="image"
                             className="rounded-circle-create-game"
-                            src="icons/boots.jpg"
+                            src={"https://fzucchelli.github.io/FootballApp"+ "/img/icons/boots.jpg"}
                           />
                           <br />
                           Sport Centers
@@ -137,7 +137,7 @@ class CreateAgame extends React.Component {
                           <img
                             alt="image"
                             className="rounded-circle-create-game"
-                            src="icons/clock.jpg"
+                            src={"https://fzucchelli.github.io/FootballApp" + "/img/icons/clock.jpg"}
                           />
                           <br />
                           Game Details
@@ -227,7 +227,7 @@ class CreateAgame extends React.Component {
                                   <img
                                     alt="image"
                                     className="rounded-circle"
-                                    src="img/Mbappe.jpg"
+                                    src={"https://fzucchelli.github.io/FootballApp" + "/img/Mbappe.jpg"} />
                                   />
                                   <div className="text-center">
                                     Kylian Mbappe'
@@ -246,7 +246,7 @@ class CreateAgame extends React.Component {
                                   <img
                                     alt="image"
                                     className="rounded-circle"
-                                    src="img/Ronaldo.jpg"
+                                    src={"https://fzucchelli.github.io/FootballApp" + "/img/Ronaldo.jpg"}
                                   />
                                   <div className="text-center">
                                     Cristiano Ronaldo
@@ -265,7 +265,7 @@ class CreateAgame extends React.Component {
                                   <img
                                     alt="image"
                                     className="rounded-circle"
-                                    src="img/pogba.jpg"
+                                    src={"https://fzucchelli.github.io/FootballApp" + "/img/pogba.jpg"}
                                   />
                                   <div className="text-center">
                                     Paul Pogba'
@@ -284,7 +284,7 @@ class CreateAgame extends React.Component {
                                   <img
                                     alt="image"
                                     className="rounded-circle"
-                                    src="img/Beckham.jpg"
+                                    src={"https://fzucchelli.github.io/FootballApp" + "/img/Beckham.jpg"}
                                   />
                                   <div className="text-center">
                                     David Beckham

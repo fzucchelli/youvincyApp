@@ -12,9 +12,6 @@ class DashBoardWrapper extends React.Component {
   goToCreateGame() {
     this.props.history.push(this.props.linkTo);
   }
-  componentDidMount() {
-    console.log('this.props.playerProfileContent', this.props.playerProfileContent)
-  }
 
   render() {
     return (

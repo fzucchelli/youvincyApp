@@ -10,7 +10,7 @@ export default class FreeSpotPlayer extends React.Component {
               <img
                 alt="image"
                 className="rounded-circle"
-                src="img/default-player.png"
+                src={"https://fzucchelli.github.io/FootballApp" + "/img/default-player.png"}
               />
             </div>
             <div className="col-md-8">
