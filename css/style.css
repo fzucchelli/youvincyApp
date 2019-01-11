@@ -12083,6 +12083,9 @@ html, body{
 }
 }
 
+  #appBodyContainer>div{ height : 100% !important; }
+  
+  
   .app-footer { 
 			height:100px;
 			background-image: url(../img/landing-page/footer.jpg) ;
