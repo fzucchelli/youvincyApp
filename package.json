@@ -4,13 +4,13 @@
   "main": "index.js",
   "author": "Franco Zucchelli",
   "license": "MIT",
-  "homepage": "http://fzucchelli.github.io/FootballApp",
+  "homepage": "https://fzucchelli.github.io/youvincyApp/",
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
